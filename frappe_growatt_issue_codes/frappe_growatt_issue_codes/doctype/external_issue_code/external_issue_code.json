@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "creation": "2025-11-21 09:35:22.280209",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "external_issue_code_id",
+  "version",
+  "family",
+  "error_name",
+  "technical_suggestions_id",
+  "type",
+  "checklist"
+ ],
+ "fields": [
+  {
+   "fieldname": "external_issue_code_id",
+   "fieldtype": "Date",
+   "label": "Issue Code"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Version",
+   "options": "Item Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "family",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Family",
+   "options": "Item Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "error_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description",
+   "options": "Item Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "technical_suggestions_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Technical Suggestions"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Error\nAlert",
+   "reqd": 1
+  },
+  {
+   "fieldname": "checklist",
+   "fieldtype": "Autocomplete",
+   "label": "Checklist",
+   "options": "Simple\nComplete"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-21 09:43:13.739710",
+ "modified_by": "Administrator",
+ "module": "Frappe Growatt Issue Codes",
+ "name": "External Issue Code",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
