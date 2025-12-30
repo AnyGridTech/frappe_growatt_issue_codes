@@ -1,97 +1,106 @@
 {
- "actions": [],
- "allow_rename": 1,
- "autoname": "field:internal_error_code_id",
- "creation": "2025-11-21 09:43:48.265945",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "internal_error_code_id",
-  "description",
-  "checklist_type",
-  "internal_verification_isrequired",
-  "shortcircuit_test",
-  "ext_issue_code_table",
-  "suggestions_email"
- ],
- "fields": [
-  {
-   "fieldname": "internal_error_code_id",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Internal Issue Code",
-   "no_copy": 1,
-   "reqd": 1,
-   "unique": 1
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Description",
-   "reqd": 1
-  },
-  {
-   "fieldname": "checklist_type",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Checklist Type",
-   "options": "Simple\nComplete",
-   "reqd": 1
-  },
-  {
-   "default": "0",
-   "fieldname": "internal_verification_isrequired",
-   "fieldtype": "Check",
-   "label": "Is internal validation necessary?",
-   "options": "\nNo\nYes"
-  },
-  {
-   "fieldname": "shortcircuit_test",
-   "fieldtype": "Select",
-   "label": "Short Circuit Test",
-   "options": "\nCC\nCA"
-  },
-  {
-   "fieldname": "suggestions_email",
-   "fieldtype": "Text Editor",
-   "label": "Suggestion E-mail"
-  },
-  {
-   "fieldname": "ext_issue_code_table",
-   "fieldtype": "Table",
-   "label": "External Issue Code - Table",
-   "options": "External Issue Code - Table"
-  }
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-11-21 09:56:41.881562",
- "modified_by": "Administrator",
- "module": "Frappe Growatt Issue Codes",
- "name": "Internal Issue Code",
- "naming_rule": "By fieldname",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
- "quick_entry": 1,
- "row_format": "Dynamic",
- "rows_threshold_for_grid_search": 20,
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": [],
- "track_changes": 1
+    "actions": [],
+    "autoname": "naming_series:",
+    "creation": "2025-11-21 09:43:48.265945",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "naming_series",
+        "internal_error_code_id",
+        "description",
+        "checklist_type",
+        "internal_verification_isrequired",
+        "shortcircuit_test",
+        "ext_issue_code_table",
+        "suggestions_email"
+    ],
+    "fields": [
+                {
+            "default": "IERR-.#####",
+            "fieldname": "naming_series",
+            "fieldtype": "Select",
+            "hidden": 1,
+            "label": "Series",
+            "options": "IERR-.#####",
+            "reqd": 1
+        },
+        {
+            "fieldname": "internal_error_code_id",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Internal Issue Code",
+            "no_copy": 1,
+            "reqd": 1,
+            "unique": 1
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Date",
+            "in_list_view": 1,
+            "label": "Description",
+            "reqd": 1
+        },
+        {
+            "fieldname": "checklist_type",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Checklist Type",
+            "options": "Simple\nComplete",
+            "reqd": 1
+        },
+        {
+            "default": "0",
+            "fieldname": "internal_verification_isrequired",
+            "fieldtype": "Check",
+            "label": "Is internal validation necessary?",
+            "options": "\nNo\nYes"
+        },
+        {
+            "fieldname": "shortcircuit_test",
+            "fieldtype": "Select",
+            "label": "Short Circuit Test",
+            "options": "\nCC\nCA"
+        },
+        {
+            "fieldname": "suggestions_email",
+            "fieldtype": "Text Editor",
+            "label": "Suggestion E-mail"
+        },
+        {
+            "fieldname": "ext_issue_code_table",
+            "fieldtype": "Table",
+            "label": "External Issue Code - Table",
+            "options": "External Issue Code - Table"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-11-21 09:56:41.881562",
+    "modified_by": "Administrator",
+    "module": "Frappe Growatt Issue Codes",
+    "name": "Internal Issue Code",
+    "naming_rule": "By \"Naming Series\" field",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "quick_entry": 1,
+    "row_format": "Dynamic",
+    "rows_threshold_for_grid_search": 20,
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1
 }
