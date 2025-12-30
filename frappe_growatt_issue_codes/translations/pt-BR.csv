@@ -1,0 +1,255 @@
+Version, Versão
+External Issue Code, Código de Problema Externo
+Series, Série
+Issue Code, Código do Problema
+Family, Família
+Description, Descrição
+Technical Suggestions, Sugestões Técnicas
+Type, Tipo
+Checklist, Lista de Verificação
+Error, Erro
+Alert, Alerta
+Simple, Simples
+Complete, Completa
+External Issue Code - Table, Tabela de Código de Problema Externo
+ID, Identificador
+Error Name, Nome do Erro
+Internal Issue Code, Código de Problema Interno
+Checklist Type, Tipo de Lista de Verificação
+Is internal validation necessary?, É necessária validação interna?
+Short Circuit Test, Teste de Curto-Circuito
+Suggestion E-mail, E-mail de Sugestões
+No, Não
+Yes, SimLeakage current sampling is different,A amostragem da corrente de fuga está diferente
+Sampling is inconsistent,A amostragem está inconsistente
+The DC component of the output current is too high,A componente CC da corrente de saída está multo alta
+The DC component of the output voltage is too high,A componente CC da tensão de saída está muito alta
+Optimizer and inverter communication is abnormal,A comunicação do otimizador e do inversor está anormal
+Communication between optimizer and inverter is abnormal,A comunicação entre o otimizador e o inversor está anormal
+Grid-connected start condition of inverter is not met,A condição de inicialização conectada à rede do inversor não é atendida
+String current is abnormal/solar panel is unmatched,A corrente da sequência está anormal/o painel solar é incomparável
+Software edition and hardware edition do not match,A edição de software e a de hardware não correspondem
+Network frequency is out of range,A frequência da rede está fora do intervalo
+PV insulation resistance is out of range,A resistência de isolamento FV está fora do intervalo
+Insulation resistance is inconsistent,A resistência de isolamento está inconsistente
+The sequence is short-circuited,A sequência está em curtocircuito
+The sequence is reversed,A sequência está invertida
+The mains voltage is outside the permitted range,A tensão da rede elétrica está fora da faixa permitida
+Mains voltage is out of range,A tensão da rede está fora do intervalo
+DC input voltage is exceeding the maximum tolerable value,A tensão de entrada CC está excedendo o valor máximo tolerável
+The DC input voltage is exceeding the maximum tolerable value.,A tensão de entrada CC está excedendo o valor máximo tolerável.
+PV input voltage is above 1000V,A tensão de entrada FV está acima de 1000V
+Firmware version is not consistent,A versão do firmware não é consistente
+Abnormal booster triggering,Acionamento de reforço anormal
+PID warning,Advertência de PID
+Waiting for BMS communication timeout,Aguardando tempo limite de comunicação do BMS
+AC Lightning Protection Device Alarm,Alarme do dispositivo de proteção contra raios CA
+High Voltage PV,Alta tensão PV
+Inconsistent current sample,Amostra de corrente inconsistente
+Inconsistent grid voltage sampling,Amostragem da tensão da rede inconsistente
+Inconsistent leakage current sampling,Amostragem de corrente de fuga inconsistente
+Inconsistent Insulation Resistance Sampling,Amostragem de resistência de isolamento inconsistente
+Abnormal bus voltage sampling.,Amostragem de tensão do barramento anormal.
+Inconsistent sampling,Amostragem inconsistente
+Inconsistent redundant sampling,Amostragem redundante inconsistente
+CC component compensation anomaly,Anomalia de compensação da componente CC
+LOW GENERATION,BAIXA GERAÇÃO
+Low PV insulation,Baixa isolação de FV
+DC Low Voltage,Baixa tensão CC
+Emergency button activated or broken,Botão de emergencia  acionado ou quebrado
+Redundant sample circuit GFCI values ​​are different,Circuito de amostra redundante dos valores de GFCI estão diferentes
+Redundant sample circuit insulation values ​​are different,Circuito de amostra redundante dos valores de isolamento estão diferentes
+Abnormal DC component compensation,Compensação de componente CC anormal
+DC component of output current out of range,Componente CC da corrente de saída fora do intervalo
+Communication of the abnormal sequence,Comunicação da sequência anormal
+Inverter communication with abnormal meter,Comunicação do Inversor com o medidor anormal
+Communication between optimizer and inverter abnormal,Comunicação entre otimizador e inversor anormal
+Abnormal internal communication,Comunicação interna anormal
+Inverted AC connection,Conexão CA invertida
+Abnormal temperature sensor connection,Conexão do sensor de temperatura anormal
+Inverted current transformer connection,Conexão do transformador de corrente invertida
+Inverter current transformer connection,Conexão do transformador de corrente invertidar
+Component dc current too high,Corrente d CC do componente muito alta
+Very high leakage current,Corrente de fuga muito alta
+DC output current too high,Corrente de saída CC muito alta
+Unbalanced output current,Corrente de saída desbalanceada
+High residual current,Corrente residual alta
+Residual current out of range,Corrente residual fora do intervalo
+PV short circuit,Curto-circuito FV
+FV1 or Fv2 short circuit,Curto circuito FV1 ou Fv2
+Short circuit in amplification,Curto-circuito na amplificação
+Datalogger does not connect,Datalogger não conecta
+Output current imbalance,Desequilíbrio da corrente de saída
+Current imbalance,Desequilíbrio de corrente
+Abnormal ground zero detection,Detecção anormal do zero do aterramento
+Zero Ground Anomaly Detection,Detecção de anomalia de aterramento zero
+Abnormal PV amplification driver,Driver de amplificação FV anormal
+Question about how to carry out the installation,Dúvida de como realizar a instalação
+Question about how to make the settings,Dúvida de como realizar as configurações
+Doubt what the datalogger LED status means,Dúvida o que significa o status do LED do datalogger
+PID error,Erro de PID
+AC wiring error,Erro de fiação CA
+AFCI Auto Check Error,Erro de verificação automática AFCI
+Boost error,Erro no boost
+Amplification module error,Erro no módulo de amplificação
+Excess temperature,Excesso de temperatura
+Memory Exception,Exceção de memória
+Boot Mode Exception,Exceção do modo de inicialização
+F AC out of range,F AC fora da faixa
+PV in Short circuit,FV em Curto- circuito
+PV in Short Circuit,FV em Curto-circuito
+AFCI failure,Falha AFCI
+AFCi failure,Falha AFCi
+DPS Failure,Falha DPS
+Consistent failure(The data received by the master and slave processors are different.),Falha consistente(Os dados  recebidos pelos processadores  mestre e escravo são  diferentes.)
+Communication failure,Falha na comunicação
+Sequence failure,Falha da sequência
+GFCI Failure,Falha de GFCI
+GFCI failure.,Falha de GFCI.
+HCT failure,Falha de HCT
+IGBT failure,Falha de IGBT
+AC current sample failure,Falha de amostra da corrente CA
+PV Current Sample Failure,Falha de amostra de corrente FV
+RS485 communication failure,Falha de comunicação RS485
+Communication failure with optimizer,Falha de comunicação com otimizador
+String communication failure,Falha de comunicação das strings
+CT communication failure,Falha de comunicação do CT
+Current transformer communication failure,Falha de comunicação do transformador de corrente
+Communication failure between M3nenSP-CT,Falha de comunicação entre M3nenSP-CT
+Internal communication failure with host,Falha de comunicação interna com host
+"Communication failure, response time too long","Falha de comunicação, tempo de resposta muito longo"
+Plug line disconnection failure,Falha de desconexão da linha do plugue
+Relay failure,Falha do relé
+DC output overcurrent fault,Falha de sobrecorrente de saída DC
+Overheating fault,Falha de superaquecimento
+Overheating fault at plug connection,Falha de superaquecimento na conexão do plugue
+Boost circuit failure,Falha do circuito de reforço
+lnit model failure,Falha do modelo lnit
+Inverter relay failure,Falha do relé do inversor
+AFCI test failure / There are arcs in the system's PV circuits,Falha do teste AFCI / Existem arcos nos circuitos FV do sistema
+EEPROM failure,Falha na EEPROM
+Bus sample failure,Falha na amostra do barramento
+Self-detection failure,Falha na autodetecção
+RFID communication failure,Falha na comunicação RFID
+BMS communication failure,Falha na comunicação do BMS
+Meter communication failure,Falha na comunicação do medidor
+Power module communication failure,Falha na comunicação do módulo de potência
+Failure in internal communication with the slave,Falha na comunicação interna com o escravo
+Automatic detection failure,Falha na detecção automática
+Insulation detection failure,Falha na detecção de isolamento
+EEPROM write failure,Falha na gravação da EEPROM
+EEPROM reading failure,Falha na leitura da EEPROM
+Bus voltage soft start failure,Falha na partida suave da tensão do barramento
+String failure,Falha na string
+Bus voltage failure,Falha na tensão do barramento
+IGBT unit failure,Falha na unidade IGBT
+Fan failure,Falha na ventoinha
+AFCI automatic check failure,Falha na verificação automática do AFCI
+Monitoring chip BOOT check failure,Falha na verificação do BOOT do chip de monitoramento
+SPD failure,Falha no SPD
+Panel access failure,Falha no acesso ao painel
+AFCI self-test failure,Falha no autoteste do AFCI
+Stuck AC Contactor Failure,Falha no contator AC preso
+Stuck DC+ contactor fault,Falha no contator DC+ preso
+Display failure,Falha no display
+Device failure,Falha no dispositivo
+IGBT drive failure,Falha no drive de IGBT
+Internal power test failed,Falha no teste de energia interna
+Internal power test failed (low PV power),Falha no teste de energia interna (energia FV baixa)
+Abnormal auxiliary power supply,Fonte de alimentação auxiliar anormal
+Out of permitted range.Main frequency,Fora da faixa permitida.Frequência da rede elétrica
+Out of VAC range,Fora de faixa V CA
+Abnormal network frequency,Frequência da rede anormal
+Mains frequency out of range,Frequência da rede elétrica fora da faixa
+Mains frequency outside the permitted range.,Frequência da rede elétrica fora da faixa permitida.
+Abnormal CC SPD function,Função CC SPD anormal
+Abnormal Dryconnect function,Função Dryconnect anormal
+Abnormal PID function,Função PID anormal
+Abnormal AC SPD function,Função SPD CA anormal
+Abnormal fan function,Função do ventilador anormal
+Abnormal dry connection function,Função de conexão seca anormal
+Abnormal dry contact function,Função de contato seco anormal
+Open DC fuse,Fusivél DC aberto
+Open DC Fuse,Fusível CC Aberto
+Blown DC fuse,Fusível CC queimado
+Damaged fuse,Fusível danificado
+DSP and COM firmware version incompatibility,Incompatibilida de da versão do firmware DSP e COM
+DSP and COM firmware version mismatch,Incompatibilidade de versão de firmware DSP e COM
+Battery voltage polarity reversal,Inversão de polaridade de tensão da bateria
+CT inversion,Inversão do CT
+Meter inversion,Inversão do medidor
+Correct PID mode not chosen,Modo PID correto não escolhido
+Abnormal boot mode,Modo de inicialização anormal
+Correct sequence mode not chosen,Modo sequência correto não escolhido
+Microinverter connection configuration method,Método de configuração de conexão do microinversor
+THOR internet configuration method,Método de configuração de internet do THOR
+Datalogger configuration methods,Métodos de configuração do datalogger
+Wrongly configured PV module,Módulo FV configurado errado
+Damaged GFCI module,Módulo GFCI danificado
+DOESN'T CALL,NÃO LIGA
+Does not connect to the internet,Não conecta na internet
+I can't access the ShineMaster WEB page,Não consigo acessar a página WEB do ShineMaster
+The inverter did not detect the grid voltage,O inversor não detectou a tensão da rede
+Leakage current module is abnormal,O módulo de corrente de fuga está anormal
+The automatic test was not successful,O teste automático não foi bem sucedido
+The automatic test was not successful.,O teste automático não foi bem sucedido.
+The data sampled by the DSP and the redundant M3 are not the same.,Os dados amostrados pelo DSP e pelo M3 redundante não são os mesmos.
+Panel short circuit,Painel em curto circuito
+Output overload protection,Proteção contra sobrecarga de saída
+Overcurrent protection,Proteção contra sobrecorrente
+USB overcurrent protection,Proteção contra sobrecorrente USB
+PWM AC bypass protection,Proteção de desvio de PWM CA
+U-disk overcurrent protection,Proteção de sobrecorrente no U-disk
+Anti-return fault protection,Proteção para falhas antirretorno
+Abnormal reactivation,Reativação anormal
+Abnormal relay,Relê anormal
+Low panel insulation resistance,Resistência de isolamento do painel baixa
+Noise,Ruído
+Sampling error of battery voltage detection is over 0.5V,Sampling error of battery voltage detecting is over 0.5V
+DCI output high,Saída DCI alta
+No AC connection,Sem conexão CA
+No network connection,Sem conexão de rede
+No network,Sem rede
+Abnormal temperature sensor,Sensor de temperatura anormal
+Abnormal synchronization signal,Sinal de sincronização anormal
+Output Overload,Sobrecarga de saída
+USB Overcurrent,Sobrecorrente USB
+Software protected overcurrent,Sobrecorrente protegida por software
+Overvoltage Phase 1,Sobretensão Fase 1
+Overvoltage Phase 2,Sobretensão Fase 2
+Overvoltage Phase 3,Sobretensão Fase 3
+AC input overvoltage,Sobretensão de entrada AC
+DC output overvoltage,Sobretensão de saída DC
+Bus overvoltage,Sobretensão do barramento
+Overvoltage/undervoltage on the internal bus.,Sobretensão/subtensão no barramento interno.
+Undervoltage Phase 1,Subtensão Fase 1
+Undervoltage Phase 2,Subtensão Fase 2
+Undervoltage Phase 3,Subtensão Fase 3
+AC input undervoltage,Subtensão de entrada AC
+Undervoltage in all phases,Subtensão em todas as fases
+NTC temperature too high,Temperatura do NTC muito alta
+Very high temperature,Temperatura muito alta
+Pairing timed out,Tempo de pareamento esgotado
+CT wireless pairing timed out,Tempo de pareamento sem fio do CT esgotado
+Isolation detection timeout,Tempo limite na detecção de isolamento
+AC voltage out of range,Tensão CA fora da faixa
+Very high DC voltage,Tensão CC muito alta
+Abnormal DC bus sampled voltage,Tensão amostrada do barramento CC anormal
+Abnormal mains voltage,Tensão da rede elétrica anorma
+Mains voltage out of range,Tensão da rede elétrica fora da faixa
+Component DC output voltage too high,Tensão de saída CC do componente muito alta
+Abnormal bus voltage,Tensão do barramento anormal
+Neutral and PE voltage above 30V.,Tensão do neutro e PEacima de 30V.
+Panel voltage too high,Tensão do painel muito alta
+High photovoltaic voltage,Tensão fotovoltaica alta
+Abnormal PID/series quick connect terminal,Terminal de conexão rápida PID/série anormal
+Abnormal battery inverted connection protection tube,Tubo de proteção de conexão invertida da bateria anormal
+VAC out of range,V CA fora do intervalo
+Abnormal firmware version,Versão do firmware anormal
+Incompatible control board and communication board firmware version,Versão do firmware da placa de controle e placa de comunicação incompatíveis
+communication between M3 and SP-CT,comunicação entre M3 e SP-CT
+unbalanced output current,corrente de saída desbalanceada
+overload failure,falha de over load
+outside the permitted range. Mains frequency,fora da faixa permitida.Frequência da rede elétrica
+communication and control board with low battery,placa de comunicação e controle com bateria baixa
+ac voltage out of range,tensão ca fora da faixa
